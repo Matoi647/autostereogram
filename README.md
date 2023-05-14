@@ -1,5 +1,10 @@
 # 生成自动立体图和视频
-
+原图
+[!original image](assets/test.png)
+自动立体图
+[!autostereogram](assets/test_asg.png)
+自动立体图（附有焦点）
+[!autostereogram(focus)](assets/test_asg_focus.png)
 ### 使用方法
 1. 安装ffmpeg
 2. 安装numpy和opencv-python
