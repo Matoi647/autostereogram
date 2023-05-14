@@ -12,7 +12,7 @@
 
 ![autostereogram(focus)](assets/test_asg_focus.png)
 ### 使用方法
-1. 安装ffmpeg
+1. 安装ffmpeg: https://ffmpeg.org/download.html
 2. 安装numpy和opencv-python
 ```
 pip install numpy opencv-python
