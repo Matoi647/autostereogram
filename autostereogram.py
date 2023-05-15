@@ -198,7 +198,7 @@ def binarize_video(video_dir, output_dir, crf=25):
     cmd = ['ffmpeg', '-r', f'{fps}', '-f', 'image2',
                      '-i', f'{output_dir}\\%d.png',
                      '-vcodec', 'libx264', '-crf', f'{crf}',
-                     f'{output_dir}\\{video_name}_asg.avi']
+                     f'{output_dir}\\{video_name}_binarized.avi']
 
     subprocess.Popen(cmd)
     print('binarize video complete.')
